@@ -1,0 +1,184 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: white;
+}
+
+body > div:last-child > span + img {
+  display: inline !important;
+}
+
+.primary-gradient {
+  background: linear-gradient(
+    90deg,
+    rgba(180, 163, 253, 0.2) 0%,
+    #ffffff 49.84%,
+    rgba(180, 163, 253, 0.2) 100%
+  );
+}
+
+.report-gradient {
+  background: linear-gradient(180deg, #190d29 0%, #1b0843 100%);
+}
+
+@font-face {
+  font-family: "Avenir";
+  font-weight: 300;
+  src: url("/fonts/Avenir.ttc") format("truetype");
+}
+
+@font-face {
+  font-family: "Gallient";
+  src: url("/fonts/Gallient.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("/fonts/Raleway.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Alfphabet";
+  src: url("/fonts/Alfphabet-IV.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "ProductSans";
+  src: url("/fonts/ProductSans-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "ProductSans";
+  src: url("/fonts/ProductSans-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "IvyPresto";
+  src: url("/fonts/IvyPrestoDisplay-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Michroma";
+  src: url("/fonts/Michroma-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Circular";
+  src: url("/fonts/circular-std-medium-500.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+
+.bg-clip-text-new {
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.linear-gradient {
+  background: linear-gradient(0deg, #c600b2 -17.36%, #5f27ff 100%);
+}
+
+.mint-bg-gradient {
+  background: linear-gradient(180deg, #190d29 7.7%, #1b0843 88.4%),
+    linear-gradient(
+      180deg,
+      #140e0f 9.26%,
+      #be0067 37.26%,
+      #171653 51%,
+      #111111 100%
+    );
+}
+
+.arrow-box {
+  position: relative;
+  /* border: 1px solid white; */
+}
+
+.arrow-box:after,
+.arrow-box:before {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.show-white-arrow.arrow-box:before {
+  border-color: transparent;
+  border-top-color: white;
+  border-width: 10px;
+  margin-left: -10px;
+}
+
+.show-primary-arrow.arrow-box:before {
+  border-color: transparent;
+  border-top-color: #ddfe15;
+  border-width: 10px;
+  margin-left: -10px;
+}
+
+.friendsSwiper.swiper {
+  overflow: unset;
+}
+
+.friendsSwiper.swiper > .swiper-pagination-bullets {
+  left: -120px;
+  bottom: -45px !important;
+}
+
+.friendsSwiper.swiper
+  > .swiper-pagination-bullets
+  .swiper-pagination-bullet-active {
+  background: #fff !important;
+}
+
+.triangle {
+  display: block;
+  width: 0;
+  height: 0;
+  border: 18px solid transparent;
+  border-left: 18px solid black;
+}
+
+@media (max-width: 768px) {
+  .friendsSwiper.swiper > .swiper-pagination-bullets {
+    left: 0;
+    bottom: -24px !important;
+  }
+
+  .friendsSwiper.swiper > .swiper-pagination-bullets .swiper-pagination-bullet {
+    width: 6px;
+    height: 6px;
+  }
+}
