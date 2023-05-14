@@ -1,0 +1,31 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "target": "es2018",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "inlineSourceMap": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "stripInternal": true,
+    "skipLibCheck": false,
+    "pretty": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "typeRoots": [
+      "./typings",
+      "./node_modules/@types"
+    ],
+    "outDir": "dist"
+  },
+  "include": ["/**/*.ts"],
+  "exclude": [
+    "dist",
+    "node_modules",
+    "test",
+    "scripts"
+  ]
+}
