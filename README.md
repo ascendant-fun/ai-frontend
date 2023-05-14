@@ -26,6 +26,6 @@ The Ascendant AI Astrologer stands as the world’s first authentic AI astrologe
 The inaugural 1.0 version, a Telegram bot, has completed extensive AI training and basic front-end development. Users can leverage tASC points to utilize the product beyond the free usage limit.
 We are currently developing additional key features, including authentication via crypto wallet and purchase tASC with stablecoin, such as BUSD. Down the road, tASC will be converted into on-chain token ASC.
 
-![alt text](https://github.com/ascendant-fun/ai-project/blob/master/src/public/intros/2-1.jpg?raw=true)
-![alt text](https://github.com/ascendant-fun/ai-project/blob/master/src/public/intros/2-2.jpg?raw=true)
-![alt text](https://github.com/ascendant-fun/ai-project/blob/master/src/public/intros/2-3.jpg?raw=true)
+![alt text](https://github.com/ascendant-fun/ai-project/blob/master/public/intros/2-1.jpg?raw=true)
+![alt text](https://github.com/ascendant-fun/ai-project/blob/master/public/intros/2-2.jpg?raw=true)
+![alt text](https://github.com/ascendant-fun/ai-project/blob/master/public/intros/2-3.jpg?raw=true)
